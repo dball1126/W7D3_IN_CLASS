@@ -1,5 +1,6 @@
 class Api::PokemonController < ApplicationController
     def index
+        
         @pokemons = Pokemon.all
     end
 
